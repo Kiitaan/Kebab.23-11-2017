@@ -1,0 +1,81 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: Helvetica;
+  padding: 2em;
+  background-color: #28252A;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  color: whitesmoke
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  color: whitesmoke
+}
+
+h3 {
+  font-family: DIN Next W01 Bold, proxima-nova, Arial, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: whitesmoke
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.titre1 {
+  background-color: #759BBF
+}
+
+.titre2 {
+  background-color: #B68DFE
+}
+
+.titre3 {
+  background-color: #EE8609
+
+}
+
+.titre1,
+.titre2,
+.titre3 {
+  width: 50%;
+  padding: 1em 3em 2em 2em;
+  margin: 0.5em;
+  color: whitesmoke;
+
+}
+
+.button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 50%;
+margin-left: 135px;
+color: black;
+text-align: center;
+font-size: 20px;
+font-family: Verdana, Comic Sans MS, Comic Sans, cursive, sans-serif;
+}
+
+ul {
+  margin-top: 50px;
+  list-style: none;
+  padding: 0;
+  line-height: 30px;
+}
+
+.resto {
+  text-align: center;
+}
